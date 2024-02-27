@@ -54,8 +54,8 @@
 
   @media (min-width:$vp-1050) {
     padding-right: 50px;
-    flex-grow: 0;
     flex-shrink: 1;
+    flex-grow: 0;
     justify-content: flex-end;
     text-align: right;
   }
