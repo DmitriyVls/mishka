@@ -1,0 +1,106 @@
+.hero__content {
+  background-image: url("../img/jpeg/hero-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding-top: 90px;
+  position: relative;
+  z-index: 5;
+
+  @media (min-width:$vp-760) {
+    background-image: url("../img/jpeg/hero-tablet.jpg");
+
+  }
+}
+
+.hero__title {
+  text-align: center;
+  font-size: 27px;
+  @media (min-width: $vp-760) {
+      font-size: 43px;
+      font-weight: 700;
+      line-height: 50px;
+      padding: 0 10%;
+  }
+
+  @media (min-width: $vp-1050) {
+      font-size: 53px;
+      line-height: 57px;
+      padding: 0 20%;
+  }
+}
+
+.title__block {
+  display: block;
+
+  @media (min-width: $vp-760) {
+    display: inline;
+  }
+}
+
+.hero__list {
+  padding-top: 120px;
+
+  @media (min-width:$vp-760) {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+.hero__item {
+  @media (min-width:$vp-760) {
+    width: 100%;
+    flex-grow: 1;
+  }
+}
+
+.hero__link-button {
+  display: block;
+  padding: 28px 0 28px 30px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  font-size: 19px;
+  color: $color-default-white;
+  background-repeat: no-repeat;
+  background-position: center right 20px;
+  cursor: pointer;
+
+  @media (min-width:$vp-760) {
+    padding-bottom: 43px;
+  }
+}
+
+.hero__link-button--lamp {
+  background: url("../img/svg/interior.svg") $color-63D1BB center right 30px no-repeat;
+
+  @media (min-width:$vp-760) {
+    background: url("../img/png/zigzag-fill-tablet.png") bottom no-repeat,
+    url("../img/svg/interior.svg")  $color-63D1BB center right 30px no-repeat;
+  }
+
+  @media (min-width:$vp-1050) {
+    background: url("../img/png/zigzag-fill.png") bottom  no-repeat,
+    url("../img/svg/interior.svg")  $color-63D1BB center right 30px no-repeat;
+  }
+}
+
+.hero__link-button--cube {
+  background: url("../img/svg/toy.svg") $color-56C3B2 90% 50% no-repeat;
+
+  @media (min-width:$vp-760) {
+    background: url("../img/png/zigzag-fill-tablet.png") bottom no-repeat,
+                url("../img/svg/toy.svg") $color-56C3B2 90% 50% no-repeat;
+  }
+
+  @media (min-width:$vp-1050) {
+    background: url("../img/png/zigzag-fill.png") bottom no-repeat,
+    url("../img/svg/toy.svg") $color-56C3B2 90% 50% no-repeat;
+  }
+}
+
+.hero__text {
+  display: block;
+  max-width: 150px;
+}

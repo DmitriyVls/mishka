@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Описание проекта">
+    <title>макет 15</title>
+
+
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav nav">
+        <picture class="header__logo logo">
+          <source srcset="img/svg/mishka-logo-desktop.svg" media="(min-width:1050px)">
+          <source srcset="img/svg/mishka-logo-tablet.svg" media="(min-width:760px)">
+          <img src="img/svg/mishka-logo-mobile.svg" alt="Логотип">
+        </picture>
+
+        <a href="#" class="header__burger burger">
+          <span class="burger__line"></span>
+        </a>
+
+          <ul class="header__list header__user-menu nav__user-menu list nav__js">
+            <li class="nav__item nav__search">
+              <a class="nav__link nav__link-search" href="#">
+                <span class="nav__link-text">Поиск по сайту</span>
+              </a>
+
+              <div class="nav__search-contain">
+                <label for="search" class="nav__label">
+                  <input type="search" name="search" class="nav__input" autofocus>
+
+                  <a class="nav__close" href="#">
+                    X
+                  </a>
+                </label>
+              </div>
+
+            </li>
+
+            <li class="nav__item nav__kart">
+              <a href="#" class="nav__link nav__link-kart">
+                Корзина: пока пуста
+              </a>
+            </li>
+          </ul>
+
+          <ul class="header__list nav__order-menu header__order-menu list nav__js">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Каталог товаров
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Вязание на заказ
+              </a>
+            </li>
+          </ul>
+
+          <ul class="header__list nav__another-menu list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                Новые поступления
+              </a>
+            </li>
+
+            <li class="nav__item nav__item--text">
+              <a href="#" class="nav__link">
+                Распродажа
+              </a>
+            </li>
+          </ul>
+
+          <p class="nav__text">
+            Бесплатная доставка по России
+          </p>
+
+        </div>
+      </nav>
+    </header>
+
+    <main class="content">
+      <h1 class="visually-hidden">
+        Интернет магазин игрушек ручной работы Мишка.
+      </h1>
+      <section class="hero">
+        <div class="hero__content">
+          <h2 class="hero__title title">
+            Милые штуки <span class="title__block">ручной</span> работы для дома
+          </h2>
+
+          <ul class="hero__list list">
+            <li class="hero__item">
+              <a class="hero__link-button hero__link-button--lamp" href="#">
+                <span class="hero__text">
+                  Предметы интерьера
+                </span>
+              </a>
+            </li>
+
+            <li class="hero__item">
+              <a class="hero__link-button hero__link-button--cube" href="#">
+                <span class="hero__text">
+                  Детские игрушки
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+    </footer>
+    <script src="../js/main.min.js" type="module"></script>
+  </body>
+</html>
