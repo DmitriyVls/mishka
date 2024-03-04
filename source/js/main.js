@@ -1,3 +1,5 @@
+import '../js/productCard';
+
 const burgerButton = document.querySelector('.burger');
 const menu = document.querySelectorAll('.nav__js');
 const burger = document.querySelector('.burger');
@@ -23,3 +25,4 @@ seacrhClose.addEventListener('click', () =>{
   seacrhInput.value = '';
   seacrh.classList.remove('is-active');
 });
+

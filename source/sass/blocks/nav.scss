@@ -76,6 +76,7 @@
     flex-wrap: wrap;
     border-top: 1px solid $color-ECECEC ;
     padding-left: 40px;
+    background-color: $color-fafafa;
 
     .nav__link {
       padding: 20px 0 20px 0;
@@ -88,6 +89,7 @@
     flex-grow: 0;
     border-top: none;
     flex-shrink: 1;
+    background-color: inherit;
 
     .nav__item {
       min-height: 88px;
@@ -109,7 +111,7 @@
     flex-grow: 1;
     padding-left: 40px;
     border-top: 1px solid $color-ECECEC ;
-    background-color: rgb(250,250, 250);
+    background-color: $color-fafafa;
 
     .nav__link {
       min-width: 179px;
@@ -272,6 +274,7 @@
     border-top: 1px solid $color-ECECEC;
     padding-top: 20px;
     padding-right: 30px;
+    background-color: $color-fafafa;
   }
 
   @media (min-width:$vp-1050) {
@@ -279,7 +282,6 @@
     border: none;
     padding-right: 50px;
     border-top: 1px solid $color-ECECEC ;
-    background-color: rgb(250,250, 250);
   }
 }
 

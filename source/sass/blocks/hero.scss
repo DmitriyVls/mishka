@@ -2,30 +2,39 @@
   background-image: url("../img/jpeg/hero-mobile.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
-  padding-top: 90px;
   position: relative;
   z-index: 5;
+  background-color: $color-fafafa;
 
   @media (min-width:$vp-760) {
     background-image: url("../img/jpeg/hero-tablet.jpg");
+  }
 
+  @media (min-width:$vp-1050) {
+    background-image: url("../img/jpeg/hero-desktop.jpg");
   }
 }
 
 .hero__title {
   text-align: center;
   font-size: 27px;
+  padding-top: 73px;
+  padding-bottom: 155px;
+
   @media (min-width: $vp-760) {
       font-size: 43px;
       font-weight: 700;
       line-height: 50px;
       padding: 0 10%;
+      padding-top: 140px;
+      padding-bottom: 375px;
   }
 
   @media (min-width: $vp-1050) {
       font-size: 53px;
       line-height: 57px;
       padding: 0 20%;
+      padding-bottom: 370px;
   }
 }
 
@@ -38,10 +47,10 @@
 }
 
 .hero__list {
-  padding-top: 120px;
 
   @media (min-width:$vp-760) {
     display: flex;
+    padding-top: 0;
     padding-left: 40px;
     padding-right: 40px;
   }
