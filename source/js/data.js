@@ -1,5 +1,5 @@
 const productCardImage = [
-  'img/jpeg/main-product-card-mobile.jpg'
+  'img/jpeg/triple-set-desktop.jpg'
 ];
 
 const productName = [
@@ -70,7 +70,5 @@ const createProductCard = () => ({
 });
 
 const productCard = createProductCard();
-
-console.log(productCard)
 
 export {productCard};

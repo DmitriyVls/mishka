@@ -1,0 +1,34 @@
+.reviews__content {
+  padding: 0 30px;
+  padding-bottom: 45px;
+
+  @media (min-width:$vp-760) {
+    background-image: url(../img/png/review-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 82px;
+    position: relative;
+  }
+
+  @media (min-width:$vp-1050) {
+    padding-left: 190px;
+  }
+}
+
+.reviews__title {
+  @media (max-width:$vp-760) {
+
+  }
+}
+
+.reviews__button {
+  width: 100%;
+  margin-top: 38px;
+
+  @media (min-width:$vp-760) {
+    position: absolute;
+    top: 82px;
+    right: 30px;
+    width: 175px;
+    margin: 0;
+  }
+}

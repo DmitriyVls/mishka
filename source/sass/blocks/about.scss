@@ -1,0 +1,80 @@
+.about__content {
+  padding: 32px 30px;
+  position: relative;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    background-image: url("../img/png/zigzag-line.png");
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+  }
+
+  @media (min-width:$vp-760) {
+    &::before {
+      background-image: url("../img/png/zigzag-fill-decktop--1.png");
+      background-repeat: repeat;
+      height: 23px;
+    }
+  }
+
+  @media (min-width:$vp-1050) {
+    padding-left: 190px;
+    max-width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+.about__title {
+  font-size: 25px;
+
+  @media (min-width:$vp-760) {
+  font-size: 43px;
+  line-height: 50px;
+  }
+}
+
+.about__main-list {
+
+  @media (min-width:$vp-760) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.about__main-item {
+
+  @media (min-width:$vp-760) {
+    padding-right: 135px;
+  }
+}
+
+.about__list {
+
+  @media (min-width:$vp-760) {
+  }
+}
+
+.about__item {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 20px;
+  padding-top: 30px;
+  max-width: 260px;
+
+  @media (min-width:$vp-760) {
+    max-width: 210px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+
+.about__svg {
+  display: block;
+  min-height: 50px;
+  margin-bottom: 15px;
+}

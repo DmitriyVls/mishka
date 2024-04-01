@@ -60,4 +60,20 @@ body {
   line-height: 30px;
   color: $color-default-black;
   margin: 0;
+
+  @media (min-width:$vp-760) {
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+.button {
+  border: 2px solid #444;
+  padding: 14px 0;
+  background-color: $color-default-white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
 }

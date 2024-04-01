@@ -1,0 +1,51 @@
+.footer {
+  margin-top: 39px;
+  padding-top: 25px;
+  padding-bottom: 32px;
+  background-color: $color-f1f1f1;
+}
+
+.footer__content {
+  padding: 0 30px;
+}
+
+.footer__logo {
+  display: none;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 28px;
+  border-bottom: 1px solid $color-e5e5e5;
+}
+
+.footer__item {
+  margin-right: 29px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.footer__link {
+  min-width: 28px;
+  min-width: 22px;
+}
+
+.footer__academy {
+  padding-top: 29px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 18px;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  svg {
+    margin-left: 27px;
+  }
+}
