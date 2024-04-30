@@ -22,6 +22,7 @@
   }
 
   @media (min-width:$vp-1050) {
+    padding-top: 68px;
     padding-left: 190px;
     max-width: 1350px;
     margin: 0 auto;
@@ -38,23 +39,24 @@
 }
 
 .about__main-list {
-
-  @media (min-width:$vp-760) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .about__main-item {
+  margin-right: auto;
 
   @media (min-width:$vp-760) {
-    padding-right: 135px;
+    max-width: 45%;
   }
 }
 
 .about__list {
 
   @media (min-width:$vp-760) {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
 }
 
@@ -70,6 +72,10 @@
     font-size: 20px;
     font-weight: 700;
     line-height: 22px;
+    margin-right: auto;
+  }
+
+  @media (min-width:$vp-1050) {
   }
 }
 

@@ -3,6 +3,7 @@
   padding-top: 31px;
   display: flex;
   flex-direction: column;
+  position: relative;
 
 
   @media (min-width:$vp-760) {
@@ -17,9 +18,8 @@
 
   @media (min-width:$vp-1050) {
     grid-template-columns: 0 32.5% 54.124%;
-    padding-left: 140px;
+    padding-left: 190px;
     position: relative;
-    justify-content: space-between;
     max-width: 1350px;
     margin: 0 auto;
   }

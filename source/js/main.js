@@ -1,5 +1,7 @@
 import '../js/productCard';
 import '../js/slider';
+import '../js/modal';
+
 
 const burgerButton = document.querySelector('.burger');
 const menu = document.querySelectorAll('.nav__js');

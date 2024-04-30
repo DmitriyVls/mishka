@@ -1,23 +1,30 @@
+.reviews {
+  @media (min-width:$vp-760) {
+    padding-top: 90px;
+  }
+
+}
+
 .reviews__content {
   padding: 0 30px;
   padding-bottom: 45px;
 
   @media (min-width:$vp-760) {
-    background-image: url(../img/png/review-bg.png);
-    background-repeat: no-repeat;
     padding-top: 82px;
     position: relative;
+    background-image: url(../img/png/review-bg.png);
+    background-repeat: no-repeat;
   }
 
   @media (min-width:$vp-1050) {
     padding-left: 190px;
+    max-width: 1350px;
+    margin: 0 auto;
   }
 }
 
-.reviews__title {
-  @media (max-width:$vp-760) {
-
-  }
+.featured__picture {
+  margin-left: auto;
 }
 
 .reviews__button {

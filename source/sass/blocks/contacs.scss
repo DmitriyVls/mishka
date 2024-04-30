@@ -1,10 +1,35 @@
 .contacs__content {
+  position: relative;
+  padding-top: 46px;
+
+  &::before {
+    content: "";
+    width: 100%;
+    height: 6px;
+    position: absolute;
+    background-image: url("../img/png/zigzag-line.png");
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+  }
+
+  @media (min-width:$vp-760) {
+    &::before {
+      background-image: url("../img/png/zigzag-fill-decktop--1.png");
+      background-repeat: repeat;
+      height: 23px;
+    }
+  }
+
   @media (min-width:$vp-1050) {
     display: grid;
     grid-template-columns: auto 55.5%;
     grid-template-rows: auto auto auto auto;
     padding: 0 50px;
+    padding-top: 46px;
     padding-left: 190px;
+    margin: 0 auto;
+    max-width: 1350px;
   }
 }
 
